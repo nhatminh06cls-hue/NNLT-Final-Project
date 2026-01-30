@@ -25,6 +25,9 @@ Chịu trách nhiệm tính toán logic và xử lý dữ liệu đầu vào ph�
 * **Game Manager (`Game`):**
   * **Máy trạng thái (State Machine):** Điều phối chuyển cảnh giữa `Menu` -> `Tutorial` -> `Show Rules` -> `Playing` -> `Game Over`.
   * **Hệ thống luật chơi:** Random màu sắc và ghi nhớ quy luật theo từng Level.
+### 📊 Sơ đồ luồng dữ liệu (Data Flow)
+
+```mermaid
 graph LR
     subgraph FRONTEND [🎨 FRONTEND / Pygame View]
         Screen[Màn hình Game]
