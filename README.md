@@ -11,6 +11,10 @@ Người chơi không cần chuột hay bàn phím (trừ menu), mà điều khi
 * ✊ **Nắm tay**
 * ✋ **Duỗi tay**
 
+### 📥 Tải Game (Windows)
+👉 **[BẤM VÀO ĐÂY ĐỂ TẢI GAME (.EXE)](https://drive.google.com/file/d/1i2fBYeIK3jWkwuoqwhj9imJcgMnhhNdY/view?usp=drive_link)**
+*(Tải về chơi ngay, không cần cài đặt Python)*
+
 ---
 
 ## 🧠 Gameplay
