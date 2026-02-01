@@ -11,57 +11,32 @@ Người chơi không cần chuột hay bàn phím (trừ menu), mà điều khi
 * ✊ **Nắm tay**
 * ✋ **Duỗi tay**
 
-Game yêu cầu ghi nhớ luật màu sắc và phản xạ nhanh để hứng bóng đúng cách.
-
 ---
 
 ## 🧠 Gameplay
 * Ở đầu mỗi level, game sẽ hiển thị bảng luật trong **5 giây**:
-    * 🔴 Màu nào cần **NẮM** tay.
-    * 🟢 Màu nào cần **DUỖI** tay.
+  * 🔴 Màu nào cần **NẮM** tay.
+  * 🟢 Màu nào cần **DUỖI** tay.
 * Bóng rơi xuống với màu ngẫu nhiên.
 * Người chơi phải:
-    * Di chuyển thanh đỡ đúng vị trí.
-    * Thực hiện đúng cử chỉ tay theo màu bóng.
+  * Di chuyển thanh đỡ đúng vị trí.
+  * Thực hiện đúng cử chỉ tay theo màu bóng.
 * **Sai cử chỉ** → bóng xuyên qua → mất mạng.
-* Càng lên level cao:
-    * Tốc độ bóng tăng.
-    * Luật màu thay đổi → tăng độ khó trí nhớ.
 
 ---
 
 ## ✋ Điều khiển
-
 | Hành động | Cách thực hiện |
 | :--- | :--- |
-| **Di chuyển thanh đỡ** | Di chuyển tay trái/phải trước webcam |
+| **Di chuyển** | Đưa tay trái/phải trước cam |
 | **Nắm tay** | ✊ Fist |
 | **Duỗi tay** | ✋ Open |
-| **Thoát game** | Phím `ESC` |
-| **Chơi lại (Game Over)** | Phím `R` |
+| **Thoát** | Phím `ESC` |
+| **Chơi lại** | Phím `R` |
 
 ---
 
-## 📷 Webcam & Xóa phông
-* Webcam hiển thị góc phải màn hình.
-* Sử dụng **MediaPipe Selfie Segmentation** để:
-    * Xóa nền.
-    * Chỉ giữ lại người chơi.
-* Giúp tập trung vào chuyển động tay và bóng rơi.
-
----
-
-## 🛠 Công nghệ sử dụng
-* Python 3.9+
-* Pygame
-* OpenCV
-* MediaPipe
-* NumPy
-
----
-
-## 🏗 Sơ đồ kiến trúc tổng thể (MVC + Computer Vision)
-
+## 🏗 Sơ đồ kiến trúc tổng thể
 ```mermaid
 graph TD
     User[WEBCAM / Camera Input] --> Vision[HandTracker Vision]
@@ -80,6 +55,3 @@ graph TD
     View --> Screen[Pygame Screen]
     View --> UI[UI / HUD]
     View --> CamOverlay[Webcam Overlay]
-## 📥 Tải Game (Phiên bản Windows)
-Bạn có thể tải file `.exe` để chơi ngay mà không cần cài Python:
-👉 **[Bấm vào đây để tải Game về máy](https://drive.google.com/file/d/1i2fBYeIK3jWkwuoqwhj9imJcgMnhhNdY/view?usp=drive_link)**
